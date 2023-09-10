@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import HeroImage from '../assets/HeroImage.jpg';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { Link } from 'react-scroll';
@@ -34,12 +34,12 @@ const Home = () => {
                     <img 
                         src={HeroImage} 
                         alt='My Profile' 
-                        className='rounded-2xl w-1/2 mx-auto mt-9 md:w-full md:mt-18' 
-                        style={{ width: '60%'}} />
+                        className='rounded-2xl w-1/2 mx-auto   md:w-full' style={{ width: '70%'}} 
+                    />
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Home;

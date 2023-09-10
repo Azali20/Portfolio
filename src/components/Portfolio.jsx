@@ -52,7 +52,7 @@ const Portfolio = () => {
                 </div>
 
 
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6 px-12 sm:px-0'>
                 {
                     portfolios.map(({id, src}) =>(
                         <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
